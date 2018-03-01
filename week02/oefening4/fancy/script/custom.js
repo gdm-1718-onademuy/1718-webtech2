@@ -28,7 +28,7 @@ for(let i = 0; i <animals.length; i++){
     //resultaat loggen van elk element uit array
     console.log(animals[i]);
     //de strings concatteneren
-    allA nimals2 += animals[i];
+    allAnimals2 += animals[i];
 }
 
 //samengevoegde strings op het scherm schrijven

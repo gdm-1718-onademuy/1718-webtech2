@@ -2,7 +2,7 @@
  * @author: Ona Demuytere
  * @created: 22/02/2018
  * @modified: 22/02/2018
- * @copyright: Artevelde University College Gehtn
+ * @copyright: Artevelde University College Ghent
 ***************************************************/
  
 let resultaat = prompt("Welke punten heb je behaald?")
@@ -22,4 +22,8 @@ function isResultaatGoed(number) {
     else if(number >= 90){
         return "Grootste onderscheiding en de gelukwensen van de examencommissie";
     }
+    else{
+        return "Je hebt onvoldoende";
+    }
 }
+document.write(isResultaatGoed);
